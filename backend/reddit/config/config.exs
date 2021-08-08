@@ -13,8 +13,8 @@ config :reddit,
 # Configures the endpoint
 config :reddit, RedditWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "atg8B7jinhPbfruL4y+oFIOX2ja86f1S8BZgW9nchAMkg3rLWuNdSPKYyenNSxMw",
-  render_errors: [view: RedditWeb.ErrorView, accepts: ~w(html json)],
+  secret_key_base: "kQEpmw7HBFnDJr3bJGGzgbRj9qIKwH8OuNUsiQkJSelSquNlO4yWdBYbgzrCl3fS",
+  render_errors: [view: RedditWeb.ErrorView, accepts: ~w(json)],
   pubsub: [name: Reddit.PubSub, adapter: Phoenix.PubSub.PG2]
 
 # Configures Elixir's Logger
